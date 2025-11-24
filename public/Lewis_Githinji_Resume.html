@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lewis Githinji - Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: #fff;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+        font-size: 11pt;
+      }
+      .no-print { display: none; }
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #10b981;
+      margin-bottom: 25px;
+    }
+
+    .name {
+      font-size: 32px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 5px;
+    }
+
+    .title {
+      font-size: 18px;
+      color: #10b981;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      font-size: 13px;
+      color: #475569;
+    }
+
+    .contact-info a {
+      color: #475569;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      color: #10b981;
+    }
+
+    /* Sections */
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #10b981;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e2e8f0;
+      margin-bottom: 15px;
+    }
+
+    /* Summary */
+    .summary {
+      color: #334155;
+      font-size: 14px;
+    }
+
+    /* Experience */
+    .experience-item {
+      margin-bottom: 20px;
+    }
+
+    .experience-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 5px;
+    }
+
+    .company {
+      font-weight: 700;
+      color: #0f172a;
+      font-size: 15px;
+    }
+
+    .role {
+      color: #475569;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    .date {
+      color: #64748b;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .experience-desc {
+      color: #475569;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+
+    .experience-desc ul {
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+
+    .experience-desc li {
+      margin-bottom: 4px;
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .skill-category {
+      margin-bottom: 10px;
+    }
+
+    .skill-category-title {
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+    .skill-list {
+      color: #475569;
+      font-size: 12px;
+    }
+
+    /* Education & Certifications */
+    .edu-item {
+      margin-bottom: 12px;
+    }
+
+    .edu-title {
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 14px;
+    }
+
+    .edu-school {
+      color: #475569;
+      font-size: 13px;
+    }
+
+    /* Projects */
+    .project-item {
+      margin-bottom: 12px;
+    }
+
+    .project-name {
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 14px;
+    }
+
+    .project-desc {
+      color: #475569;
+      font-size: 13px;
+    }
+
+    .project-tech {
+      color: #10b981;
+      font-size: 12px;
+      margin-top: 3px;
+    }
+
+    /* Print button */
+    .print-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #10b981;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    }
+
+    .print-btn:hover {
+      background: #059669;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1 class="name">Lewis Githinji</h1>
+    <p class="title">Full-Stack Developer & AI Solutions Architect</p>
+    <div class="contact-info">
+      <span>Nairobi, Kenya</span>
+      <span>|</span>
+      <a href="mailto:lewis@datacare.co.ke">lewis@datacare.co.ke</a>
+      <span>|</span>
+      <a href="tel:+254784155752">+254 784 155 752</a>
+      <span>|</span>
+      <a href="https://www.linkedin.com/in/waweru/" target="_blank">LinkedIn</a>
+      <span>|</span>
+      <a href="https://github.com/lewisgithinji" target="_blank">GitHub</a>
+      <span>|</span>
+      <a href="https://datacare.co.ke" target="_blank">datacare.co.ke</a>
+    </div>
+  </header>
+
+  <!-- Summary -->
+  <section class="section">
+    <h2 class="section-title">Professional Summary</h2>
+    <p class="summary">
+      Seasoned software developer and tech entrepreneur with 12+ years of experience building enterprise solutions
+      across Banking, Healthcare, Insurance, and Government sectors. Microsoft Partner and Founder of Datacare Limited,
+      serving 500+ organizations across East Africa. Expertise spans full-stack development, AI/ML integration,
+      cloud architecture, and cybersecurity. Passionate about leveraging technology to solve real-world business
+      challenges and drive digital transformation.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section class="section">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <div class="experience-item">
+      <div class="experience-header">
+        <div>
+          <div class="company">Datacare Limited</div>
+          <div class="role">Founder & CEO</div>
+        </div>
+        <div class="date">2012 - Present</div>
+      </div>
+      <div class="experience-desc">
+        <ul>
+          <li>Founded and grew an IT solutions company serving 500+ organizations across Kenya, South Sudan, and East Africa</li>
+          <li>Achieved Microsoft Partner status, delivering enterprise-grade cloud and productivity solutions</li>
+          <li>Led digital transformation initiatives for clients in Banking, Insurance, Healthcare, and Government sectors</li>
+          <li>Developed and deployed custom ERP systems, AI-powered security platforms, and automation solutions</li>
+          <li>Built and managed a team delivering web applications, mobile apps, and IT infrastructure services</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="experience-item">
+      <div class="experience-header">
+        <div>
+          <div class="company">Enterprise Software Development</div>
+          <div class="role">Full-Stack Developer & Solutions Architect</div>
+        </div>
+        <div class="date">2012 - Present</div>
+      </div>
+      <div class="experience-desc">
+        <ul>
+          <li>Architected and developed Polygon Suite - comprehensive ERP system for retail, manufacturing, and distribution</li>
+          <li>Built hospital management systems with patient records, scheduling, billing, and inventory modules</li>
+          <li>Created AI-powered automation agents using LangChain, OpenAI, and custom ML models</li>
+          <li>Implemented secure document management systems with advanced search and access control</li>
+          <li>Delivered 50+ projects with technologies including React, Node.js, Python, TypeScript, and cloud platforms</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <div class="skill-category-title">Frontend Development</div>
+        <div class="skill-list">React, Next.js, TypeScript, Vue.js, Tailwind CSS, HTML5/CSS3</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">Backend Development</div>
+        <div class="skill-list">Node.js, Python, FastAPI, Express.js, .NET, PHP</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">AI & Automation</div>
+        <div class="skill-list">LangChain, OpenAI API, AI Agents, n8n, Data Analysis</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">Cloud & DevOps</div>
+        <div class="skill-list">AWS, Azure, Docker, CI/CD, Linux, Nginx</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">Databases</div>
+        <div class="skill-list">PostgreSQL, MySQL, MongoDB, Redis, Supabase, Firebase</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">Security & IT</div>
+        <div class="skill-list">Cybersecurity, IAM, Network Security, SIEM, Microsoft 365, Google Workspace</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section">
+    <h2 class="section-title">Key Projects</h2>
+
+    <div class="project-item">
+      <div class="project-name">Datacare Platform</div>
+      <div class="project-desc">Enterprise IT solutions platform serving 500+ organizations with cloud services, AI-powered security, and digital transformation solutions.</div>
+      <div class="project-tech">TypeScript, React, Node.js, Cloud Infrastructure</div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-name">TNT Sacco Financial Platform</div>
+      <div class="project-desc">Kenyan Savings and Credit Organization platform for member account management, loans, and transactions.</div>
+      <div class="project-tech">TypeScript, React, Supabase, Fintech</div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-name">IJSSE Academic Journals Platform</div>
+      <div class="project-desc">Academic journals platform with conferences calendar, filtering, and advanced search for researchers.</div>
+      <div class="project-tech">TypeScript, Next.js, PostgreSQL</div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-name">FNM Law Advocates Website</div>
+      <div class="project-desc">Modern legal firm website with practice area showcases, attorney profiles, and client portal.</div>
+      <div class="project-tech">TypeScript, React, Tailwind CSS</div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-item">
+      <div class="edu-title">Bachelor of Science in Business & Information Technology</div>
+      <div class="edu-school">Mt. Kenya University</div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="section">
+    <h2 class="section-title">Certifications & Partnerships</h2>
+    <div class="edu-item">
+      <div class="edu-title">Microsoft Partner</div>
+      <div class="edu-school">Cloud Solutions & Productivity</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-title">AWS Certified</div>
+      <div class="edu-school">Cloud Architecture</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-title">Google Cloud Partner</div>
+      <div class="edu-school">Workspace & Cloud Services</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-title">Cisco Partner</div>
+      <div class="edu-school">Networking & Security</div>
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section class="section">
+    <h2 class="section-title">Languages</h2>
+    <p class="summary">English (Fluent) | Swahili (Native)</p>
+  </section>
+
+  <!-- Print Button -->
+  <button class="print-btn no-print" onclick="window.print()">
+    Download PDF
+  </button>
+</body>
+</html>
