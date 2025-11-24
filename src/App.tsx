@@ -461,7 +461,7 @@ const Projects = () => {
       category: 'Financial Services',
       color: 'violet',
       github: 'https://github.com/lewisgithinji/tnt-sacco',
-      live: null,
+      live: 'https://tntscco.co.ke',
     },
     {
       title: 'FNM Law Advocates',
@@ -470,7 +470,7 @@ const Projects = () => {
       category: 'Legal Tech',
       color: 'rose',
       github: 'https://github.com/lewisgithinji/fnmlaw',
-      live: null,
+      live: 'https://fnmlawadvocates.com/',
     },
     {
       title: 'Loop Energy',
@@ -479,7 +479,7 @@ const Projects = () => {
       category: 'CleanTech',
       color: 'amber',
       github: 'https://github.com/lewisgithinji/loopenergy',
-      live: null,
+      live: 'https://loopenergy.netlify.app/',
     },
     {
       title: 'Tusker Expeditions',
@@ -488,7 +488,7 @@ const Projects = () => {
       category: 'Travel & Tourism',
       color: 'emerald',
       github: 'https://github.com/lewisgithinji/TuskerExpeditions',
-      live: null,
+      live: 'http://tuskerexpeditions.netlify.app/',
     },
   ];
 
