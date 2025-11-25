@@ -255,13 +255,13 @@ const About = () => (
         <div className="reveal opacity-0 translate-y-8 transition-all duration-700">
           <div className="relative">
             <div className="aspect-square rounded-3xl bg-gradient-to-br from-zinc-800 to-zinc-900 border border-zinc-700/50 overflow-hidden">
-              {/* Placeholder for photo - using initials design */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-[180px] font-bold bg-gradient-to-br from-emerald-400/20 to-cyan-400/20 bg-clip-text text-transparent select-none">
-                  LG
-                </div>
-              </div>
-              {/* Decorative elements */}
+              {/* Profile Photo */}
+              <img
+                src="/wech.jpg"
+                alt="Lewis Githinji - Full-Stack Developer & AI Solutions Architect"
+                className="w-full h-full object-cover"
+              />
+              {/* Decorative overlay elements */}
               <div className="absolute top-6 right-6 w-20 h-20 border border-emerald-500/30 rounded-full" />
               <div className="absolute bottom-6 left-6 w-32 h-32 border border-cyan-500/20 rounded-full" />
             </div>
