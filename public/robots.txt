@@ -1,5 +1,5 @@
 # robots.txt for Lewis Githinji Portfolio
-# https://lewis-portfolio.pages.dev
+# https://sirlewis.pages.dev
 
 User-agent: *
 Allow: /
@@ -11,11 +11,11 @@ Disallow: /.git/
 # Allow all resources for better indexing
 Allow: /wech.jpg
 Allow: /favicon.svg
-Allow: /og-image.svg
+Allow: /og-image.png
 Allow: /Lewis_Githinji_Resume.html
 
 # Sitemap location
-Sitemap: https://lewis-portfolio.pages.dev/sitemap.xml
+Sitemap: https://sirlewis.pages.dev/sitemap.xml
 
 # Crawl-delay (optional, be nice to servers)
 Crawl-delay: 0

@@ -797,9 +797,14 @@ const Services = () => {
           <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4">
             Services
           </h2>
-          <p className="text-zinc-400 max-w-2xl mx-auto">
+          <p className="text-zinc-400 max-w-2xl mx-auto mb-4">
             Specialized services tailored to help your business leverage technology for growth
           </p>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-800/50 border border-zinc-700/50 rounded-full">
+            <span className="text-emerald-400 font-semibold">$75 - $150/hr</span>
+            <span className="text-zinc-500">•</span>
+            <span className="text-zinc-400 text-sm">Project-based pricing available</span>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -966,16 +971,6 @@ export default function App() {
 
       {/* Global Styles */}
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
-
-        * {
-          font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-
-        html {
-          scroll-behavior: smooth;
-        }
-
         .reveal {
           opacity: 0;
           transform: translateY(2rem);
