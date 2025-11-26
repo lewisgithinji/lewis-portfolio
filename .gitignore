@@ -12,6 +12,31 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials & Keys
+credentials.json
+service-account.json
+*.pem
+*.key
+*.pfx
+*.p12
+.firebase/
+
+# Testing
+coverage/
+.nyc_output/
+.jest/
+
+# Build & Cache
+.cache/
+.parcel-cache/
+.next/
+out/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +47,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OS files
+Thumbs.db
+*~
